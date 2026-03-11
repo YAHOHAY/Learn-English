@@ -158,18 +158,21 @@
     * [翻译]：持续的噪音让他在书房**里**发了疯。
 
 ### 5.3 非谓语动词作宾补 (触发回调动作)
+#### 不定式 (to do) - 指向未来的、待执行的动作
 21. (to do) She advised him to leave the city **before** (介词，时间点前置) dark.
     * [翻译]：她建议他**在**天黑**前**离开这座城市。
 22. (to do) I expect you to finish this task **by** (介词，最晚期限) Friday.
     * [翻译]：我期望你**在**周五**前**完成这项任务。
 23. (to do) The teacher forced the students to stand **against** (介词，物理倚靠/对抗) the wall.
     * [翻译]：老师强迫学生们靠**着**墙站立。
+#### 现在分词 (doing) - 正在同步发生的动作
 24. (doing) We saw them playing chess **in** (介词，划定区域内) the park.
     * [翻译]：我们看见他们正在公园**里**下棋。
 25. (doing) He kept me waiting **for** (介词，动作延长时间段) two solid hours.
     * [翻译]：他让我足足等**了**两个小时。
 26. (doing) I caught him stealing documents **from** (介词，动作来源/分离点) the safe.
     * [翻译]：我抓到他正在**从**保险箱**里**偷文件。
+#### 过去分词 (done) - 被动的、已完成的状态
 27. (done) I need the financial report finished **by** (介词，截止时间) noon.
     * [翻译]：我需要财务报告**在**中午**之前**被完成。
 28. (done) She had her hair cut **at** (介词，发生具体地点) the salon.
@@ -179,7 +182,7 @@
 30. (done) He wants the issue resolved **without** (介词，缺乏/排除) delay.
     * [翻译]：他希望问题得到解决，**没有**任何延误。
 
-### 5.4 介词短语作宾补 (设定环境变量或物理坐标)
+### 5.4 介词短语作宾补 (设定环境变量或物理坐标)  逻辑映射：宾语 = 处于某种环境/条件下
 31. She left him **in** (介词，陷入抽象状态) tears.
     * [翻译]：她留他**在**眼泪**中**（让他暗自落泪）。
 32. I consider this mechanical failure **beyond** (介词，超出能力极限) repair.
