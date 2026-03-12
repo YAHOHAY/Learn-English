@@ -137,4 +137,62 @@
 77. The question **why** the application crashed **at** (介词，时间轴上的精准触发点) 3:00 AM needs immediate attention.
 78. The discussion centered around the issue **where** we should store the backup data **for** (介词，保存的目的) maximum security.
 79. He solved the problem **how** a 24-year-old developer can emigrate **with** (介词，依靠的随身凭借) limited initial funds.
-80. We have no definitive answer to the question **when** the new update will be pushed **to** (介词，推送的接收端) the users.
+80. We have no definitive answer to the question **when** the new update will be pushed **to** (介词，推送的接收端) the users.  
+
+# 名词性从句中的 `Wh-` 变量接口解析
+
+**核心区别**：在名词性从句里，`Wh-` 词不是空指针，它们是带有明确“值（Value）”的变量。翻译时，必须把它们原本的疑问词意思（什么、谁、哪里）翻译出来。
+
+---
+
+## 1. 实体变量接口 (Wh- Pronouns)
+*提取具体的 Object, String, Integer 或 Entity ID。*
+
+### `What` = “...的事物 / 什么” (The Thing / Payload)
+*逻辑：提取未知的返回值或操作对象。它自己在从句里既当引导词，又当主语/宾语。*
+1. AceLogic calculates **what** (什么/的事物) the best move is **at** (介词，零维的精准时间/逻辑切片) this stage.
+   * [翻译]：AceLogic 计算出**在这个**阶段最佳的移动**是什么**。
+2. **What** (所...的事物) we need **for** (介词，长远业务的预期目标) the AI module is a faster GPU.
+   * [翻译]：我们**为**AI模块所需要的**东西**是一块更快的GPU。
+
+### `Who` (主语) / `Whom` (宾语) = “谁” (User ID / Agent)
+*逻辑：提取未知的执行者或承受者。*
+3. The logs record **who** (谁) accessed the database **without** (介词，排除/缺乏特定伴随条件) authorization.
+   * [翻译]：日志记录了**谁在没有**授权的情况下访问了数据库。
+4. I do not know **whom** (谁 - 宾语) the manager selected **for** (介词，职位分配的目标受体) the backend role.
+   * [翻译]：我不知道经理为了这个后端职位选了**谁**。
+
+### `Which` = “哪一个” (Array Selector / Index)
+*逻辑：在一个给定的集合（数组）中，提取出被选中的那一个具体元素。*
+5. The compiler determines **which** (哪一个) syntax tree is optimal **under** (介词，承受的底层编译规则) the current configuration.
+   * [翻译]：编译器决定了**在**当前配置**下**，**哪一棵**语法树是最优的。
+
+### `Whose` = “谁的” (Parent Object / Ownership)
+*逻辑：提取未知的所有者属性。*
+6. The system cannot identify **whose** (谁的) API key was exposed **to** (介词，数据流向的终点网络) the public.
+   * [翻译]：系统无法识别是**谁的** API 密钥被暴露**给**了公众。
+
+---
+
+## 2. 环境变量接口 (Wh- Adverbs)
+*提取具体的环境参数（时间戳、物理坐标、算法逻辑、触发器）。*
+
+### `How` = “如何 / ...的方式” (Method / Algorithm)
+*逻辑：提取子程序运行的底层逻辑和执行算法。*
+7. The documentation explains **how** (如何) the parser extracts data **from** (介词，动作剥离的源头起点) the raw string.
+   * [翻译]：文档解释了解析器是**如何从**原始字符串中提取数据的。
+
+### `Why` = “为什么 / ...的原因” (Cause / Trigger)
+*逻辑：提取导致该事件发生的逻辑前置条件。*
+8. We must debug **why** (为什么) the memory usage spikes **during** (介词，贯穿某过程的内部时间段) the infinite loop.
+   * [翻译]：我们必须调试出**为什么**内存使用量会**在**死循环**期间**飙升。
+
+### `Where` = “哪里 / ...的地点” (Memory Address / Location)
+*逻辑：提取事件发生的物理坐标或内存指针地址。*
+9. The pointer specifies **where** (哪里) the variable is stored **in** (介词，处于三维存储空间的内部) the RAM.
+   * [翻译]：指针指定了变量被存储**在** RAM 的**哪里**。
+
+### `When` = “什么时候” (Timestamp)
+*逻辑：提取事件触发的精确时间戳。*
+10. The schedule dictates **when** (什么时候) the new code will be deployed **into** (介词，动态注入到系统内部) production.
+    * [翻译]：时间表规定了新代码将**在什么时候**被部署**进**生产环境。
